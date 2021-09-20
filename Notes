@@ -1,0 +1,55 @@
+Chnage img's from CSS to html and wrap in link (or <a> tags) for larger clickbox. ✅
+
+Find height on image by inspecting and set div to this height. (to constrain product divs to dimensions of CSS background images)
+
+Found alternative solution:
+
+Set div to flexbox column and use relative positioning to center div contents. (div within div) ✅
+
+
+For Top Animations:
+
+Notice how uls load slightly later than container.
+
+Does this prevent a choppy overlaying animation?
+
+
+Question for Lucas: Can I use multiple H2 tags on a page? ✅
+
+Answer: Don't worry about it. ✅
+
+To look at later:
+
+Margin vs TranslateX/Y for bubble links.
+Padding for sides of middle container .
+
+
+Can <a> tags wrap around div with no links in them? / How to resize a link to a whole div size?
+
+Align-content vs class based body spacing.
+
+To fix nav-div animations:
+
+Restructure code so that all links share a class of something like "top-nav-link-divs" (or something similar) and all are able to draw out the the ul-links-large-container, and then set a seperate animation for drawing out individual ULs upon hovering.
+
+(Maybe set a div within ul-links-large-container so I dont have to rewrite the code over and over again. Does that make sense? Maybe not.)
+
+Fix "top-nav-link-ul" list-style. ✅
+
+
+Fix the vertical spacing of the "join-us" banner contents. --> Change to CSS-Background Image.
+
+Fix top-nav-link-ul-div spacing. (Men page)
+
+
+Set hard height to top banner and use CSS images.
+
+
+Fix Footer heading left spacing. (padding) ✅
+
+Style bottom right footer links. (set to white, opacity 0.5, and then 1 for hover.) ✅
+
+Fix h3 ul-large-container elements: wrap h3 in link - instead of the other way around.
+
+
+Maybe set hard widths to large divs inside container so content can be justified in new div and ul-large-container can be set to justify-center
